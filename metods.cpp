@@ -1,15 +1,7 @@
 #include "main.h"
 #include <iostream>
 
-void book::borrow() {
-    if (available == true) {
-        available = false;
-        cout << "book is borrow:" << title << endl;
-    }
-    else {
-        cout << "the book is already borrowed" << endl;
-    }
-}
+
 
 void book::returnbook() {
     if(available == false) {

@@ -24,7 +24,7 @@ public:
         available = true;
     }
 
-    void borrow();
+
     void returnbook();
     void showinfo();
 };

@@ -20,7 +20,7 @@ int main() {
 
     book b(title, autor, year);
 
-    b.borrow();
+
     b.returnbook();
     b.showinfo();
 }
