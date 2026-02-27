@@ -1,32 +1,14 @@
 //
-//
+// Created by Користувач on 27.02.2026.
 //
 
 #ifndef UNTITLED_MAIN_H
 #define UNTITLED_MAIN_H
 
-#include <iostream>
-#include <string>
-using namespace std;
-class book
+
+class main
 {
-private:
-    string title;
-    string autor;
-    int year;
-    bool available;
-
-public:
-    book(string t, string a, int y) {
-        title = t;
-        autor = a;
-        year = y;
-        available = true;
-    }
-
-
-    void returnbook();
-    void showinfo();
 };
+
 
 #endif //UNTITLED_MAIN_H
